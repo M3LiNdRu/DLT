@@ -1,0 +1,7 @@
+services:
+  ganache:
+    build:
+      context: .
+    ports:
+    - 8545:8545
+
